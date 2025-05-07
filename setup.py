@@ -21,6 +21,9 @@ setup(
     license='AGPLv3',
     tests_require=['pytest'],
     scripts=[
+        '__init__.py',
+        'franka_client.py',
         'franka_lock_unlock.py',
+        'shutdown.py',
     ],
 )
