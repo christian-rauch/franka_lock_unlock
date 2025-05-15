@@ -11,7 +11,7 @@
   <license>AGPLv3</license>
   <url type="website">https://github.com/jk-ethz/franka_lock_unlock</url>
 
-  <buildtool_depend>colcon</buildtool_depend>
+  <exec_depend>launch_xml</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
